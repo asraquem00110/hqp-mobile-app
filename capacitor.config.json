@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.myhqpapp",
+  "appName": "HQP Checker",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {}
+}
