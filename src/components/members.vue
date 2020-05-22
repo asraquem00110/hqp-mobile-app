@@ -8,7 +8,8 @@
                     <ion-item v-for="(member,index) in members" :key="index">
                         <ion-row>
                             <ion-col size="5">
-                                <img v-if="member.img != null && member.img && member.img != ''" style="height:100%;width:100%" :src="`https://hqp-backend-00110.herokuapp.com/public/images/families/${member.img}`"/>
+                                 <!-- <img v-if="member.img != null && member.img && member.img != ''" style="height:100%;width:100%" :src="`https://hqp-backend-00110.herokuapp.com/public/images/families/${member.img}`"/> -->
+                                   <img v-if="member.img != null && member.img && member.img != ''" style="height:100%;width:100%" :src="`https://00110xd.000webhostapp.com/hqPublic/uploads/${member.img}`"/>
                                 <img v-else style="height:100%;width:100%" :src="`https://hqp-backend-00110.herokuapp.com/public/images/default.png`"/>
                             </ion-col>
                             <ion-col style="padding:15px;">
